@@ -5,7 +5,7 @@
 ## Flow
 
 1. Export Grab E-invoice email by calling Gmail API
-   1. [Get Google API credentials](https://developers.google.com/workspace/gmail/api/quickstart/python)3
+   1. [Get Google API credentials](https://developers.google.com/workspace/gmail/api/quickstart/python)
    2. Save credentials file as `credentials/credentials.json`
    3. Get Grab related mail by `python gmail_dump.py` and save them as `data/messages.json`
 2. Extract related information by string matching `python extracting_info.py` and save them as `extracted_info.json`
